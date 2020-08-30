@@ -1597,12 +1597,19 @@ input, select, textarea {
 			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 			position: relative;
 			display: flex;
+			flex-direction: column;
 			justify-content: space-between;
 			width: 60rem;
 			max-width: 100%;
 			background-color: rgba(27, 31, 34, 0.85);
 			border-radius: 4px;
 			opacity: 0;
+		}
+
+		@media (min-width: 500px) {
+			#work {
+				flex-direction: row;
+			}
 		}
 
 		.container {
