@@ -1270,6 +1270,30 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	#languages {
+		display: flex;
+		justify-content: space-evenly;
+		width: 80%;
+	}
+
+	#header .logo > :after {
+		content: '';
+		display: block;
+		position: absolute;
+		top: calc(4rem - 1px);
+		left: calc(50% - 1px);
+		width: 1px;
+		height: 2rem;
+		background: #ffffff;
+	}
+
+	@media (min-width: 700px){
+		#header .logo > :after{
+			height: calc(3.6rem);
+			top: 4.2rem;
+		}
+	}
+
 		#header > * {
 			-moz-transition: opacity 0.325s ease-in-out;
 			-webkit-transition: opacity 0.325s ease-in-out;
@@ -1278,6 +1302,8 @@ input, select, textarea {
 			position: relative;
 			margin-top: 3.5rem;
 		}
+
+	
 
 			#header > *:before {
 				content: '';
@@ -1310,7 +1336,7 @@ input, select, textarea {
 				font-size: 2rem;
 			}
 		
-		#header .logo .fab {
+		#header .logo .fab, .fas {
 			position: relative;
 			top: 12px;
 			font-size: 3rem;
