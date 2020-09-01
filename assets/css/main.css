@@ -725,6 +725,25 @@ input, select, textarea {
 				margin: 1.5rem 0;
 			}
 
+			#bio {
+				flex-direction: column;
+			}
+
+		}
+
+		#bio {
+			display: flex;
+		}
+
+		#text {
+			margin: 20px;
+		}
+
+		#face {
+			width:20em;
+			height:auto;
+			max-height: 500px;
+			border-radius: 15px;
 		}
 
 /* List */
