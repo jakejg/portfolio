@@ -1203,8 +1203,11 @@ input, select, textarea {
 			filter: blur(0.2rem);
 		}
 
-		body.is-preload #bg:before {
-			background-color: #000000;
+		body {
+			background-image: url("../../images/tree.jpg");
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
 		}
 
 /* Wrapper */
